@@ -1,0 +1,13 @@
+﻿<Window x:Class="UCMaterialDesignTheme.MainWindow"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UCMaterialDesignTheme" xmlns:local1="clr-namespace:UCMaterialDesignTheme.Requirements"
+        mc:Ignorable="d"
+        Style="{DynamicResource MainStyle}"
+        Title="UCMaterialDesignTheme" Height="450" Width="800">
+    <Grid>
+        <local1:UCTheme/>
+    </Grid>
+</Window>
